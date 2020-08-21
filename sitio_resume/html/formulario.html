@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Resumenes de libros">
+    <meta name="keywords" content="libros, resumenes, resumenes de libros, reseñas, reseñas de libros">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style_form.css">
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="javascript/form_script.js"></script>
+    <!-- JQUERY -->
+    <script src="../downloadJquery.js"></script>
+
+    <title>Resumenes</title>
+</head>
+
+<body>
+    <img src="../imagen/elon_musk.jpg" alt="">
+    <p>Todos los resumenes de tus libros favoritos en un solo lugar</p>
+    <form action="../backend/form_backen.php">
+        <table>
+            <tr>
+                <td>
+                    <label for="">Usuario:</label>
+                </td>
+
+                <td>
+                    <input type="mail" id="usuario" name="usuario" placeholder="Usuario..." autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Contraseña:</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" placeholder="Contraseña...">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="enviar" name="enviar" value="Iniciar sesion">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
